@@ -1,15 +1,16 @@
 {%extends "base.html"%}
 {%import "macros/restaurant_list.html" as list_cards %}
+
 {% block hero %}
 
 <section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
-        Primary title
+        Restaurants
       </h1>
       <h2 class="subtitle">
-        Primary subtitle
+        search your favorite restaurant
       </h2>
     </div>
   </div>
@@ -24,7 +25,7 @@
 <section class="section">
   <div class="container">
     <div class="columns">
-      {{list_cards.cards([1,2,3,4])}}
+      {{list_cards.cards([1,2,3,4,5,6,7])}}
     </div>
   </div>
 </section>
